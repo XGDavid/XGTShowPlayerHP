@@ -11,7 +11,7 @@ It shows the health of the opponent hit with a projectile.
 
 ## Other
 
-[![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/qmnDsSD)
+[![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/h8uTKFh)
 
 
 [![Youtube]()](https://youtube.com/xgdavid)
