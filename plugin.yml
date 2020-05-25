@@ -3,5 +3,6 @@ name: XGTShowPlayerHP
 version: 0.0.1
 main: XGDAVIDYT\XGTShowPlayerHP\Main
 author: XGDAVIDYT
-api: 3.12.2
+api: 3.12.1
+icon: icon.png
 ...
