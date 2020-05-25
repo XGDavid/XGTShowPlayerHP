@@ -5,8 +5,11 @@ It shows the health of the opponent hit with a projectile.
 
 ## Features
 | Config | ✔ |
+
 | Costom Message | ✔ |
+
 | Custom Format | ✔ |
+
 | Soon UPDATES | ✔ |
 
 ## Other
