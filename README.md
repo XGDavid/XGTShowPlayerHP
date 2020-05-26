@@ -4,18 +4,21 @@
 It shows the health of the opponent hit with a projectile.
 
 ## Features
-| Config | ✔ |
+- [X] Config
 
-| Costom Message | ✔ |
+- [X] Costom Message
 
-| Custom Format | ✔ |
+- [X] Custom Format
 
-| Soon UPDATES | ✔ |
+- [X] Weekly UPDATES
 
 ## Other
 
-[![Discord](https://img.shields.io/discord/330850307607363585?logo=discord)](https://discord.gg/h8uTKFh)
+[![Discord](https://img.shields.io/discord/689211475537297411?logo=discord)](https://discord.gg/h8uTKFh)
 
+[![](https://poggit.pmmp.io/shield.dl.total/XGTShowPlayerHP)](https://poggit.pmmp.io/p/XGTShowPlayerHP)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/XGDavid)
 
 [![Youtube]()](https://youtube.com/xgdavid)
 
