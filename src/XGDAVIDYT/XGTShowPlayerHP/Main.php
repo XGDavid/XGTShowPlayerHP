@@ -23,10 +23,10 @@ class Main extends PluginBase implements Listener{
 		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		if(!$this->config->get("version") == 1.1){
-			$this->getServer()->getLogger()->info("[XGTShowPlayerHP] Config is outdata!");
+			$this->getServer()->getLogger()->notice("[XGTShowPlayerHP] Config is outdata!");
 			$this->getServer()->getPluginManager()->disablePlugin($this);
 		}
-		if($this->config->get("Type") == 0){
+		if($this->config->get("Type") == 0 && $this->config->get("version") == 1.1){
 			$this->getServer()->getLogger()->notice("[XGTShowPlayerHP] the plugin will not send any alerts when a player hits another player because the format is disabled!");
 		}
 	}
