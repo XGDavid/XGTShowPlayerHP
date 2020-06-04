@@ -1,6 +1,7 @@
 # XGTShowPlayerHP
 
 ## Description
+BEST PLUGIN FOR PVP
 It shows the health of the opponent hit with a projectile.
 
 ## Features
@@ -9,6 +10,8 @@ It shows the health of the opponent hit with a projectile.
 - [X] Costom Message
 
 - [X] Custom Format
+
+- [X] Custom Type: Numeric/Emoji
 
 - [X] Weekly UPDATES
 
