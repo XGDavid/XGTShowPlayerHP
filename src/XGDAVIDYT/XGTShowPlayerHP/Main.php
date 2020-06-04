@@ -48,7 +48,7 @@ class Main extends PluginBase implements Listener{
 					}elseif($this->config->get("Format") == 3){
 						$player->addTitle($titlehp);
 					}
-				}elseif($thiis->config->get("Type") == 2){
+				}elseif($this->config->get("Type") == 2){
 					if($hp == 20){
 						if($this->config->get("Format") == 1){
 							$player->sendMessage("§6§lDMG Informer »§6 ".$name."§4 ❤❤❤❤❤❤❤❤❤❤");
