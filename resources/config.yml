@@ -1,7 +1,15 @@
 #ShowPlayerHP Config
+version: 1.1
+#DON'T EDIT!!!
+
+#Type:
+  # 0 = Disable Show HP
+  # 1 = Default, show numeric HP
+  # 2 = Show Player HP in Hreat Emoji(Hypixel)
+
+Type: 2
 
 #Format type:
-  # 0 = Disable Show HP
   # 1 = Send Player Message with Attacked player HP
   # 2 = Send Player Popup with Attacked player HP
   # 3 = Send Player Title with Attacked player HP
