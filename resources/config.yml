@@ -14,7 +14,7 @@ Type: 2
   # 2 = Send Player Popup with Attacked player HP
   # 3 = Send Player Title with Attacked player HP
 
-Format: 1
+Format: 2
 
 #Message:
   # (optional)Use for Heart = ❤
