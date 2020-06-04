@@ -5,4 +5,5 @@ branches:
 projects:
   XGTShowPlayerHP:
     path: ""
+    icon: XGT.png
 ...
