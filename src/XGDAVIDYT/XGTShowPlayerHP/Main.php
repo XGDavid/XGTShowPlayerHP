@@ -26,9 +26,6 @@ class Main extends PluginBase implements Listener{
 			$this->getServer()->getLogger()->notice("[XGTShowPlayerHP] Config is outdata!");
 			$this->getServer()->getPluginManager()->disablePlugin($this);
 		}
-		if($this->config->get("Type") == 0 && $this->config->get("version") == 1.1){
-			$this->getServer()->getLogger()->notice("[XGTShowPlayerHP] the plugin will not send any alerts when a player hits another player because the format is disabled!");
-		}
 	}
 	
 	public function Lovitura(EntityDamageEvent $event){
