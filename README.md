@@ -2,7 +2,14 @@
 
 ## Description
 
+
+This is a PocketMine Plugin.
 It shows the health of the opponent hit with a projectile.
+
+You have two options:
+1. show your opponent's health in numbers 
+
+2. show your opponent's health in hearts
 
 ## How to install
 
