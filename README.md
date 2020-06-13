@@ -33,8 +33,6 @@ You have two options:
 
 - [X] Custom Type: Numeric/Emoji
 
-- [X] Weekly UPDATES
-
 ## Other
 
 [![Discord](https://img.shields.io/discord/689211475537297411?logo=discord)](https://discord.gg/h8uTKFh)
