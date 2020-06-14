@@ -44,7 +44,8 @@ You have two options:
 
 ## Config
 
-```#Type:
+```
+#Type:
   # 0 = Disable Show HP
   # 1 = Default, show numeric HP
   # 2 = Show Player HP in Hreat Emoji(Hypixel)
