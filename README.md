@@ -67,5 +67,5 @@ Format: 2
 
 MessageHP: "§l§e@name §cis now in§e @hp §cHP"
 PopupHP: "§l§7@name§c @hp §4❤"
-TitleHP: "§l§b@name §r§c\n@hp §4❤" ```
-
+TitleHP: "§l§b@name §r§c\n@hp §4❤"
+```
