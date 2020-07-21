@@ -1,6 +1,12 @@
 #ShowPlayerHP Config
-version: 1.1
+version: 1.2
 #DON'T EDIT!!!
+
+#Show:
+  # 1 = It only shows you health when you hit it with a projectile
+  # 2 = It shows your health when you hit it with anything
+
+Show: 2
 
 #Type:
   # 0 = Disable Show HP
