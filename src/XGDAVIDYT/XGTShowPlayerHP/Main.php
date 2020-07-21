@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
 		$this->saveResource("config.yml");
 		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		if(!$this->config->get("version") == 1.2){
+		if(!$this->config->get("version") === 1.2){
 			$this->getServer()->getLogger()->notice("[XGTShowPlayerHP] Config is outdata!");
 			$this->getServer()->getPluginManager()->disablePlugin($this);
 		}
@@ -211,7 +211,7 @@ class Main extends PluginBase implements Listener{
 					}
 				}
 			}
-		}elseif($this->config->get("Show") == 1){
+		}elseif($this->config->get("Show") == 2){
 			if($event->getCause() === EntityDamageByEntityEvent){
 				$player = $event->getDamager();
 				if($player instanceof Player){
