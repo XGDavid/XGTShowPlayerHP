@@ -4,7 +4,7 @@
 
 
 This is a PocketMine Plugin.
-It shows the health of the opponent hit with a projectile.
+It shows the health of the opponent.
 
 You have two options:
 1. show your opponent's health in numbers 
@@ -33,6 +33,8 @@ You have two options:
 
 - [X] Custom Type: Numeric/Emoji
 
+- [X] Custom Show
+
 ## Other
 
 [![Discord](https://img.shields.io/discord/689211475537297411?logo=discord)](https://discord.gg/h8uTKFh)
@@ -45,6 +47,12 @@ You have two options:
 ## Config
 
 ```
+#Show:
+  # 1 = It only shows you health when you hit it with a projectile
+  # 2 = It shows your health when you hit it with anything
+
+Show: 2
+
 #Type:
   # 0 = Disable Show HP
   # 1 = Default, show numeric HP
