@@ -10,9 +10,11 @@ use pocketmine\event\Listener;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use XGDAVIDYT\XGTShowPlayerHP\libs\bStats\Metrics;
 
 class Main extends PluginBase implements Listener
 {
+    private const BSTATS_PLUGIN_ID = 28722;
 
     private Config $config;
     private int $showMode;
@@ -31,6 +33,9 @@ class Main extends PluginBase implements Listener
 
     protected function onEnable(): void
     {
+        $metrics = new Metrics($this, self::BSTATS_PLUGIN_ID);
+        $metrics->scheduleMetricsDataSend();
+
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 
@@ -60,7 +65,7 @@ class Main extends PluginBase implements Listener
         $this->heartsPrefixPopup = $this->config->get("hearts-prefix-popup", "§6§l");
         $this->heartsPrefixTitle = $this->config->get("hearts-prefix-title", "§6§l");
     }
-
+    
     public function onEntityDamage(EntityDamageByEntityEvent $event): void
     {
         if ($this->displayType === 0) return;
@@ -148,8 +153,6 @@ class Main extends PluginBase implements Listener
 
         return $display;
     }
-
-
 
 
 }
