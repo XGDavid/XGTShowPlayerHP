@@ -1,8 +1,7 @@
 ---
 name: XGTShowPlayerHP
-version: 1.0.1
+version: 2.0.0
 main: XGDAVIDYT\XGTShowPlayerHP\Main
 author: XGDAVIDYT
-api: 3.14.1
-icon: icon.png
+api: 5.0.0
 ...
